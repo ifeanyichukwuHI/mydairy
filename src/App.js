@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component, Fragment } from 'react';
 import './App.css';
+import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
+import Quote from './components/Quote/Quote';
+import TextArea from './components/TextArea/TextArea';
+import Footer from './components/Footer/Footer';
+// import SignIn from './components/SignIn/SignIn';
+// import Register from './components/Register/Register';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+
+  render() {
+    return (
+      <Fragment>
+        <Header />
+        {/* <SignIn /> */}
+        {/* <Register /> */}
+        <Navigation />
+        <main>
+          <Quote />
+          <TextArea />
+        </main>
+
+        <Footer />
+      </Fragment>
+    )
+  }
 }
+
 
 export default App;
