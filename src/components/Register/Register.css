@@ -1,0 +1,16 @@
+.register input{
+display: block;
+margin-bottom: 1em;
+}
+
+.form-section-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.register-header {
+margin-top: 1em;
+font-family: "Alex Brush";
+}

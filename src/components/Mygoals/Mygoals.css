@@ -1,0 +1,33 @@
+button {
+    padding: .5em 2em;
+}
+
+input {
+    padding: .5em;
+    width: 350px
+}
+
+.mygoals {
+    width: 60%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0 auto;
+}
+
+.goalList {
+    margin-top: .5em;
+}
+
+.dailyGoals{
+    margin-top: 2em;
+    font-family: "Alex brush";
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+form {
+    display: block;
+}

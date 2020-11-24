@@ -2,6 +2,11 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
 }
 
 .header{
@@ -11,10 +16,11 @@
 }
 
 .title{
-  font-family: "Cedarville Cursive";
+  font-family: "Alex Brush";
   font-style: italic;
   font-size: 4rem;
   margin-bottom: 0;
+  font-weight:900;
 }
 
 a {
@@ -28,7 +34,7 @@ a {
   justify-content: center;
 }
 
-li{
+.nav-list li{
   display: inline-block;
   margin: 0 1em;
 }
@@ -36,6 +42,14 @@ li{
 .nav-list {
   list-style: none;
   margin-left: 2em;
+}
+
+.nav-list-item p{
+  display: inline-block;
+  font-weight: bold;
+  color: #0f576f;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .pipe{
@@ -49,7 +63,7 @@ main {
 
 .quote {
   width: 300px;
-  font-family: "Alex Brush";
+  font-family: "Cedarville Cursive", 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: 1em;
   margin: .5em auto;
@@ -57,10 +71,10 @@ main {
 }
 
 .journal-area {
-  width: 500px;
-  height: 50vh;
+  width: 600px;
+  height: 53vh;
   border-radius: 5px;
-  font-family: 'Alex Brush';
+  font-family: 'Cedarville Cursive', 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: 1.3em;
   padding: 1em;
@@ -81,16 +95,22 @@ main {
   margin: 0 auto;
   padding: .5em 1em;
   font-size: 1em;
+  font-family: "Cedarville Cursive";
+  font-style: italic;
 }
 
 footer {
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  font-family: "Cedarville Cursive";
+  font-style: italic;
 }
 
 
-
+.container {
+  margin-top: 2em;
+}
 
 
 

@@ -1,0 +1,25 @@
+.form-section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.form-section input {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.signin-header {
+    font-family: "Alex Brush";
+    margin-top: 1em;
+    font-weight: normal;
+}

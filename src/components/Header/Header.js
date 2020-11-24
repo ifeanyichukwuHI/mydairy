@@ -1,21 +1,17 @@
 import React from 'react';
+import DateTime from '../DateTime/DateTime'
 
 
 
 const Header = () => {
     return (
         <header className="header">
-            <p className='title'>
-                My Dairy
-        </p>
-            <p>
-                <div>
-                    {new Date().toLocaleDateString()}
-                </div>
-                <div>
-                    {new Date().toLocaleTimeString()}
-                </div>
-            </p>
+            <h1 className='title'>
+                My Diary
+            </h1>
+            <div>
+                <DateTime />
+            </div>
         </header>
     )
 }
